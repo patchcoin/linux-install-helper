@@ -14,7 +14,7 @@ There are two ways to obtain the installation script:
 
 2. Download the script directly:
    ```
-   curl -O https://raw.githubusercontent.com/patchcoin/linux-install-helper/main/patchcoin-setup.sh
+   curl -O https://raw.githubusercontent.com/patchcoin/linux-install-helper/refs/heads/master/patchcoin-setup.sh
    ```
 
 ## Requirements
