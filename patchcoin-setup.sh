@@ -81,8 +81,8 @@ check_sha256() {
 install_patchcoin() {
     echo "Starting Patchcoin installation..."
 
-    COMMIT_HASH=ce463154e90f
-    APP_VERSION=0.1.0
+    COMMIT_HASH=c742f2d87ad6
+    APP_VERSION=0.1.1
     APP_NAME=patchcoin
 
     detect_architecture
@@ -94,16 +94,16 @@ install_patchcoin() {
     EXPECTED_SHA256=""
     case "${ARCH}-${OS_SUFFIX}" in
         "x86_64-linux-gnu")
-            EXPECTED_SHA256="1ecc45ca035e22cc7d3332658b82a7350bb8d57658f15f555b57a04f698b38c8"
+            EXPECTED_SHA256="be9459a5ed0c094519547a5abb7aa3ed1fe437fd62c6f86d1573c70df4294578"
             ;;
         "aarch64-linux-gnu")
-            EXPECTED_SHA256="98e42ae251230ff9abc904d0c71449fc07ad743c3b608ebf822d7f0f9f994555"
+            EXPECTED_SHA256="627787275bca0e732146fe028cb9acada083941000af33f4dc4c1bd50d7ceeb2"
             ;;
         "arm-linux-gnueabihf")
-            EXPECTED_SHA256="88c274e484a6d7246facf0239c1b0bf800f26f06e6fc5d43e71b1a75fb68fae0"
+            EXPECTED_SHA256="bceb9afedd2b58a907ca0f891a2ad27bcd50d7361232778cbbea78521cfcfbf4"
             ;;
         "riscv64-linux-gnu")
-            EXPECTED_SHA256="d256a178a60282d46cd3b3321866a1632a0f89c2d4d3db3fe45a7a4cd7996a2e"
+            EXPECTED_SHA256="3b0627fe57ab9f42c88795bcdeb53cda211deaf2a585a612423d67722009c026"
             ;;
         *)
             echo "Warning: No SHA256 hash available for this architecture."

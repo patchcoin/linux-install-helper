@@ -83,4 +83,4 @@ The script automatically detects and supports the following architectures:
 - The script requires an internet connection to download the necessary files.
 - Installation creates desktop entries for easy access to the GUI wallet.
 - After installation, the Patchcoin GUI wallet will be available in your system's start menu/application launcher.
-- The current version installed is 0.1.0.
+- The current version installed is 0.1.1.
